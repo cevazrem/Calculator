@@ -13,12 +13,6 @@ int LexAnalyser::get_lex() {
     return cur;
 }
 
-//L -> C {+ C}
-//C -> A {- A}
-//A -> M {* M}
-//M -> K {/ K}
-//K -> num | (L)
-
 class Parser {
 private:
     LexAnalyser scanner;
